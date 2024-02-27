@@ -98,3 +98,4 @@ The project is organized into several packages:
 
 ### User Interface
 - Interact with the user interface to browse available branches, explore medicine categories, place orders, and view order history.
+https://drive.google.com/file/d/1YNZlRg4N3J2e0MCvjZVWvx2A_Av6AX56/view?usp=sharing

@@ -47,6 +47,37 @@ The project is organized into several packages:
 - `phoneNumber`: varchar(15)
 - `branch_id`: int (Foreign Key)
 
+## POJO Class Attributes
+### Branch
+- `id`: int
+- `name`: String
+- `address`: String
+- `phoneNumber`: String
+
+### Medicine
+- `id`: int
+- `name`: String
+- `category`: String
+- `price`: double
+- `quantity`: int
+- `branchId`: int
+
+### Purchase
+- `id`: int
+- `userId`: int
+- `medicineId`: int
+- `dateTime`: LocalDateTime
+- `quantity`: int
+- `totalPrice`: double
+- `branchId`: int
+
+### User
+- `id`: int
+- `name`: String
+- `address`: String
+- `phoneNumber`: String
+- `branchId`: int
+
 ## Setup Instructions
 ### Prerequisites
 - JDK (Java Development Kit)
